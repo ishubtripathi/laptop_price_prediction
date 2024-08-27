@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 1.1rem;
+}
+
+.alert {
+    font-size: 1.1rem;
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}
